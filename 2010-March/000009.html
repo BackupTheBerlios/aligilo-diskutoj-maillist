@@ -1,0 +1,106 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN">
+<HTML>
+ <HEAD>
+   <TITLE> [Aligilo-diskutoj] Planoj kaj sxangxoj
+   </TITLE>
+   <LINK REL="Index" HREF="http://lists.berlios.de/pipermail/aligilo-diskutoj/2010-March/index.html" >
+   <LINK REL="made"  HREF="mailto:aligilo-diskutoj%40lists.berlios.de?Subject=Re%3A%20%5BAligilo-diskutoj%5D%20Planoj%20kaj%20sxangxoj&In-Reply-To=%3C4B96AE43.8090503%40esperanto.de%3E">
+   <META NAME="robots" CONTENT="index,nofollow">
+   <META http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+   <LINK REL="Previous"  HREF="000018.html">
+   <LINK REL="Next"  HREF="000011.html">
+ </HEAD>
+ <BODY BGCOLOR="#ffffff">
+   <H1>[Aligilo-diskutoj] Planoj kaj sxangxoj</H1>
+    <B>Paul Ebermann</B> 
+    <A
+    HREF="mailto:aligilo-diskutoj%40lists.berlios.de?Subject=Re%3A%20%5BAligilo-diskutoj%5D%20Planoj%20kaj%20sxangxoj&In-Reply-To=%3C4B96AE43.8090503%40esperanto.de%3E"
+           TITLE="[Aligilo-diskutoj] Planoj kaj sxangxoj">Paul.Ebermann at esperanto.de
+                  </A><BR>
+    <I>Di Mär  9 21:23:31 CET 2010</I>
+    <P><UL>
+        <LI>Vorherige Nachricht: <A HREF="000018.html">[Aligilo-diskutoj] Planoj kaj sxangxoj
+</A></li>
+        <LI>Nächste Nachricht: <A HREF="000011.html">[Aligilo-diskutoj] Planoj kaj sxangxoj
+</A></li>
+         <LI> <B>Nachrichten sortiert nach:</B> 
+              <a href="date.html#9">[ Datum ]</a>
+              <a href="thread.html#9">[ Thema ]</a>
+              <a href="subject.html#9">[ Betreff (Subject) ]</a>
+              <a href="author.html#9">[ Autor ]</a>
+         </LI>
+       </UL>
+    <HR>
+<!--beginarticle-->
+<PRE>Arkadiusz Zychewicz wrote:
+
+&gt;<i> Miaj proponoj estas por ke priskribi strukturon de programo, gxia
+</I>&gt;<i> funkiado kaj poste pridiskuti planoj de sxangxoj. ekz. kiel fari por ke
+</I>&gt;<i> dividi interfaco kaj kodo, plibonigi gxin (interfacon), fari programon
+</I>&gt;<i> pli gxeneralan.  Kion vi pensas pri tiu?
+</I>&gt;<i> kaj  cxu vi komence povus priskribi pli precize, kiu faras kion?
+</I>
+Tre (vere tre) skeman bildon de la programstrukturo mi jxus kreis:
+<A HREF="http://heribert/aligilo/htdocs/doku/programstrukturo.png">http://heribert/aligilo/htdocs/doku/programstrukturo.png</A>
+
+Indus ankoraux plidetaligi kaj aldoni pecojn (ekzemple pluraj funkcioj 
+en iloj.php versxajne estu tute sube, aliflanke la dosiero ja enigas 
+cxiujn aliajn ilojn, do eble tamen tute supre?).
+
+konvertiloj enhavas funkciojn por transformi cxefe cxenojn el unu kodigo 
+al alia, kaj estas uzata plurloke (inter alie de iloj_html), kaj en 
+pluraj pagxoj rekte.
+
+Pluraj el la aliaj iloj estu aux sub aux super la &quot;DB-objektoj&quot; (kiuj 
+fakte estas ne vere tauxga kunmeto de pluraj diversaj objekto-tipoj, 
+kiuj havas nur komune la funkciojn por savi sin al kaj preni sin el la 
+datumbazo).
+PDF-kreado ankaux iel estu strukturigita ... gxi estas nun
+
+Ankaux la &quot;pagxoj&quot;n oni povus diferencigi al pluraj grupoj:
+- diversaj pagxoj por redakti po unu tipon de objekto (aux kelkajn
+   parencajn, kaze de kategorioj)
+- sercx-pagxoj, statistikaj pagxoj, listoj
+- menuo, salutilo, ktp.
+- &quot;grava administrado&quot; (amasa PDF-kreado, aliaj amasaj funkcioj,
+                         ligoj al teknikajxoj)
+- kelkaj &quot;specialaj skriptoj&quot; (en tiel nomita dosierujo)
+
+Iom apartaj:
+- la traduksistemo
+- la instalilo
+- la aligxilo (en publikaj_skriptoj)
+
+Mi eble morgaux provas fari duan version de la skemo.
+
+Krom tio, versxajne plej tauxgas se vi ankoraux iom pli konkrete 
+demandas, kion vi volas scii. (Estas la unua fojo, ke iu volis scii tiom 
+detale kaj ne sidis apud mi, do mi petas pardonon ke mi ne tute scias 
+kion vi volas scii.)
+
+(Mi intencas enmeti cxiujn miajn klarigojn iel en la dokumentajxojn, por 
+ke la sekvaj havu pli bonan sxancon trovi gxin.)
+
+
+Pauxlo
+
+</PRE>
+
+<!--endarticle-->
+    <HR>
+    <P><UL>
+        <!--threads-->
+	<LI>Vorherige Nachricht: <A HREF="000018.html">[Aligilo-diskutoj] Planoj kaj sxangxoj
+</A></li>
+	<LI>Nächste Nachricht: <A HREF="000011.html">[Aligilo-diskutoj] Planoj kaj sxangxoj
+</A></li>
+         <LI> <B>Nachrichten sortiert nach:</B>
+              <a href="date.html#9">[ Datum ]</a>
+              <a href="thread.html#9">[ Thema ]</a>
+              <a href="subject.html#9">[ Betreff (Subject)]</a>
+              <a href="author.html#9">[ Autor ]</a>
+         </LI>
+       </UL>
+<hr>
+<a href="https://lists.berlios.de/mailman/listinfo/aligilo-diskutoj">Mehr Informationen &uuml;ber die Mailingliste Aligilo-diskutoj</a><br>
+</body></html>

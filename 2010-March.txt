@@ -1,0 +1,893 @@
+From oczykota at gmail.com  Sun Mar  7 11:19:30 2010
+From: oczykota at gmail.com (Arkadiusz Zychewicz)
+Date: Sun, 07 Mar 2010 11:19:30 +0100
+Subject: [Aligilo-diskutoj] Saluton al cxiu
+Message-ID: <4B937DB2.8000003@gmail.com>
+
+Sal,
+  Mi jxus aligxis al dissendolisto, do mi volus saluti cxiuj. :)
+
+Arek.
+
+-- 
+Esperanto regxas.
+
+
+
+From oczykota at gmail.com  Sun Mar  7 11:34:09 2010
+From: oczykota at gmail.com (Arkadiusz Zychewicz)
+Date: Sun, 07 Mar 2010 11:34:09 +0100
+Subject: [Aligilo-diskutoj] Kunlaboro cxe verkado
+Message-ID: <4B938121.602@gmail.com>
+
+Saluton,
+  Mi volus ion helpi do por plifaciligi kunlaboron cxu mi povus ricevi
+rajtojn por sxangxi kodon?
+  Kaj cxu ni povus verki liston "por fari"? Mi havas jam unu proponon al
+cxi tiu listo: plibonigi interfacon (cxar por mi estas iomete hxaosa)
+
+Arek.
+
+-- 
+Esperanto regxas.
+
+
+
+From Paul.Ebermann at esperanto.de  Sun Mar  7 12:17:57 2010
+From: Paul.Ebermann at esperanto.de (Paul Ebermann)
+Date: Sun, 07 Mar 2010 12:17:57 +0100
+Subject: [Aligilo-diskutoj] Kunlaboro cxe verkado
+In-Reply-To: <4B938121.602@gmail.com>
+References: <4B938121.602@gmail.com>
+Message-ID: <4B938B65.4040708@esperanto.de>
+
+Saluton,
+
+Arkadiusz Zychewicz wrote:
+
+>   Mi volus ion helpi do por plifaciligi kunlaboron cxu mi povus ricevi
+> rajtojn por sxangxi kodon?
+
+Jes, kiam mi eltrovas kiel fari tion :-)
+
+(Ah, trovis ion ... 
+http://developer.berlios.de/docman/display_doc.php?docid=394&group_id=2#access
+Mi nun rigardos, kaj aldonos vin.)
+
+>   Kaj cxu ni povus verki liston "por fari"? 
+
+Longa listo de farendajxoj estas en la cimo-memorilo: 
+http://developer.berlios.de/bugs/?group_id=8006
+
+(Kelkaj el tiuj fakte jam estas faritaj, sed plej multaj ne.
+Mi poste trarigardos, kiuj estas ankoraux aktualaj.)
+
+Vi povas aldoni pliajn per "submit a bug".
+
+ > Mi havas jam unu proponon al
+ > cxi tiu listo: plibonigi interfacon (cxar por mi estas iomete hxaosa)
+
+Se vi pli bone priskribas, kion vi celas, mi pli bone komprenas.
+
+La interna aligilo ("aligu partoprenanton") versxajne estas la plej 
+hxaosa parto, sed gxi ne estas multe uzata, cxar plej multaj homoj 
+aligxas per interreta aligxilo.
+
+Pri la nuna interfaco, estas iom legebla en la dokumentajxo: 
+http://aligilo.berlios.de/generita_dokumentajxo/aligilo/tutorial_gxenerala_dokumentajxo.pkg.html
+
+Kompreneble mi ne kontrauxas sxangxojn al la interfaco (ja mi mem planis 
+iujn gxeneralajn restrukturigojn jam de longe), sed indas priparoli tion 
+iom :-)
+
+Pauxlo
+
+
+From Paul.Ebermann at esperanto.de  Sun Mar  7 13:47:52 2010
+From: Paul.Ebermann at esperanto.de (Paul Ebermann)
+Date: Sun, 07 Mar 2010 13:47:52 +0100
+Subject: [Aligilo-diskutoj] Kunlaboro cxe verkado
+In-Reply-To: <4B938B65.4040708@esperanto.de>
+References: <4B938121.602@gmail.com> <4B938B65.4040708@esperanto.de>
+Message-ID: <4B93A078.1010401@esperanto.de>
+
+Paul Ebermann wrote:
+> Saluton,
+> 
+> Arkadiusz Zychewicz wrote:
+> 
+>>   Mi volus ion helpi do por plifaciligi kunlaboron cxu mi povus ricevi
+>> rajtojn por sxangxi kodon?
+> 
+> Jes, kiam mi eltrovas kiel fari tion :-)
+> 
+> (Ah, trovis ion ... 
+> http://developer.berlios.de/docman/display_doc.php?docid=394&group_id=2#access 
+> 
+> Mi nun rigardos, kaj aldonos vin.)
+
+Hmm, fakte mi ja ne volas "limigi la aliron", sed ebligi.
+Do, mi kredas ke vi fakte jam devus povi sxangxi ion, per tio ke vi 
+estas membro de la grupo "aligilo".
+
+Necesas preni la dosierojn per svn+ssh kaj via uzantnomo, sed poste 
+devus ebli fari "svn ci" por sendi sxangxojn.
+
+
+Pauxlo
+
+
+From oczykota at gmail.com  Mon Mar  8 15:00:29 2010
+From: oczykota at gmail.com (Arkadiusz Zychewicz)
+Date: Mon, 08 Mar 2010 15:00:29 +0100
+Subject: [Aligilo-diskutoj] Undefined index: tabelnomtradukilo
+Message-ID: <4B9502FD.2000905@gmail.com>
+
+Sal,
+  Mi elsxutis novan verion al mia hejma komputilo. Kaj kiam mi eniras al
+cxefpagxo mi ricevas cxi tiun mesagxon:
+
+(DIR=/home/arek/public_html/aligilo/programo)
+
+Notice: Undefined index: tabelnomtradukilo in DIR/iloj/iloj_sql.php on
+line 121
+Notice: Undefined index: tabelnompostfikso in DIR/iloj/iloj_sql.php on
+line 130
+Notice: Undefined variable: _SESSION in DIR/iloj/konvertiloj.php on line 260
+Notice: Undefined index: enkodo in DIR/iloj/konvertiloj.php on line 261
+
+cxu tiuj eraroj estas pro konfiguro de mia komputilo?
+PHP 5.3 kun Apache 2 en SuSe 11.2
+
+Kaj kiam mi volas fari instalado tiam estas ankaux cxe cxiu SQL-komendo:
+
+Notice: Undefined index: tabelnomtradukilo in DIR/iloj/iloj_sql.php on
+line 121
+Notice: Undefined index: tabelnompostfikso in DIR/iloj/iloj_sql.php on
+line 130
+Warning: fopen(../dosieroj_generitaj/db_tradukoj.txt): failed to open
+stream: Permission denied in DIR/instalilo/kreu_datumbazon.php on
+line 1177
+Warning: fwrite() expects parameter 1 to be resource, boolean given in
+DIR/instalilo/kreu_datumbazon.php on line 1202
+Notice: Undefined variable: _SESSION in DIR/iloj/konvertiloj.php on line 260
+Notice: Undefined index: enkodo in DIR/iloj/konvertiloj.php on line 261
+
+
+Arek.
+
+
+From Paul.Ebermann at esperanto.de  Mon Mar  8 18:24:30 2010
+From: Paul.Ebermann at esperanto.de (Paul Ebermann)
+Date: Mon, 08 Mar 2010 18:24:30 +0100
+Subject: [Aligilo-diskutoj] Undefined index: tabelnomtradukilo
+In-Reply-To: <4B9502FD.2000905@gmail.com>
+References: <4B9502FD.2000905@gmail.com>
+Message-ID: <4B9532CE.5080206@esperanto.de>
+
+Arkadiusz Zychewicz wrote:
+> Sal,
+>   Mi elsxutis novan verion al mia hejma komputilo. Kaj kiam mi eniras al
+> cxefpagxo mi ricevas cxi tiun mesagxon:
+> 
+> (DIR=/home/arek/public_html/aligilo/programo)
+> 
+> Notice: Undefined index: tabelnomtradukilo in DIR/iloj/iloj_sql.php on
+> line 121
+> Notice: Undefined index: tabelnompostfikso in DIR/iloj/iloj_sql.php on
+> line 130
+> Notice: Undefined variable: _SESSION in DIR/iloj/konvertiloj.php on line 260
+> Notice: Undefined index: enkodo in DIR/iloj/konvertiloj.php on line 261
+> 
+> cxu tiuj eraroj estas pro konfiguro de mia komputilo?
+> PHP 5.3 kun Apache 2 en SuSe 11.2
+
+Hmm, parte.
+Sxajne via PHP estas konfigurita por doni notojn pri nedifinitaj variabloj, kiujn mia ne
+donis. Malnovaj PHP-versioj simple uzis nedifinitajn variablojn kiel "" (kaj mi supozas,
+ke la novaj tion ankaux faras, sed aldone donas la notojn).
+
+Principe tiuj variabloj supozeble estu difinitaj (plejparte kiel "", null aux false).
+
+Mi rigardos, kio estas farebla.
+
+(Laux unua rigardo:
+ La $tabelnomtradukilo/$tabelnompostfikso estu difinitaj en konfiguro/datumbazo.php, aux
+ alternative ilia uzo en traduku_tabelnomon() kontrolu, cxu ili fakte estas difinitaj.
+ $enkodo versxajne igxu $_REQUEST['enkodo']. Pri $_SESSION mi ne certas, eble necesas
+ unue starti la sesion por ke gxi funkciu.)
+
+Mi ankaux rigardos, cxu mi sukcesos mian PHP tiel konfiguri, ke mi vidu la mesagxojn (tiel
+pli facilos korekti la koncernajn partojn de la programo).
+
+> Kaj kiam mi volas fari instalado tiam estas ankaux cxe cxiu SQL-komendo:
+> 
+> Notice: Undefined index: tabelnomtradukilo in DIR/iloj/iloj_sql.php on
+> line 121
+> Notice: Undefined index: tabelnompostfikso in DIR/iloj/iloj_sql.php on
+> line 130
+
+Jes, sama kialo kiel supre.
+
+> Warning: fopen(../dosieroj_generitaj/db_tradukoj.txt): failed to open
+> stream: Permission denied in DIR/instalilo/kreu_datumbazon.php on
+> line 1177
+
+Ah, tio estas grava punkto (mi devas aldoni al la instal-priskribo):
+La dosierujo "dosieroj_generitaj" devas havi permesojn, kiuj ebligas al la retservilo tie
+krei dosierojn (do supozeble o+w). (Ankaux legi, kompreneble.).
+
+Por la instalado, gxi cxefe utilas por krei help-dosieron, kiun poste la traduksistemo
+uzos. Sed aliaj partoj de la programo (precipe cxiuj PDF-kreiloj) ankaux metos siajn
+dosierojn tien. (Kaj mi kredas, ke nur tien kaj ne aliloken.)
+
+Sed krom tio sxajne cxiuj estas nur ne-gravaj notoj. Bonvolu reprovi post donado de rajtoj.
+
+(Jes, indus havi pli bonan erarmesagxon tie.)
+
+
+Pauxlo
+
+
+From Paul.Ebermann at esperanto.de  Mon Mar  8 23:19:14 2010
+From: Paul.Ebermann at esperanto.de (Paul Ebermann)
+Date: Mon, 08 Mar 2010 23:19:14 +0100
+Subject: [Aligilo-diskutoj] Undefined index: tabelnomtradukilo
+In-Reply-To: <4B9532CE.5080206@esperanto.de>
+References: <4B9502FD.2000905@gmail.com> <4B9532CE.5080206@esperanto.de>
+Message-ID: <4B9577E2.4040406@esperanto.de>
+
+Paul Ebermann skribis:
+
+> Principe tiuj variabloj supozeble estu difinitaj (plejparte kiel "", null aux false).
+> 
+> Mi rigardos, kio estas farebla.
+> 
+> (Laux unua rigardo:
+>  La $tabelnomtradukilo/$tabelnompostfikso estu difinitaj en konfiguro/datumbazo.php, aux
+>  alternative ilia uzo en traduku_tabelnomon() kontrolu, cxu ili fakte estas difinitaj.
+>  $enkodo versxajne igxu $_REQUEST['enkodo']. Pri $_SESSION mi ne certas, eble necesas
+>  unue starti la sesion por ke gxi funkciu.)
+> 
+> Mi ankaux rigardos, cxu mi sukcesos mian PHP tiel konfiguri, ke mi vidu la mesagxojn (tiel
+> pli facilos korekti la koncernajn partojn de la programo).
+
+Mi sxaltis plurajn avertojn en mia php.ini, kaj nun trovas multegajn 
+tiajn avertojn :-(
+
+Por nur simple elprovi versxajne estas plej simple malsxalti ilin, sed 
+mi nun laboras por purigi la tutan programon (nu, almenaux la plej 
+gravajn pagxojn) por forigi ilin. (Gxis nun sxangxitaj+aldonitaj 452 
+linioj.)
+
+Mi ankaux konstatis, ke la db-kreilo ne vere atentas pri la 
+konfigur-opcio KAMPOELEKTO_IJK, kaj do sxajne cxiam kreas la
+datumbazkampojn en la varianto por IJK anstataux IS. (Tiuj du estis la 
+du variantoj, kiujn gxi gxis nun konas.)
+Mi kredas ke mi nun tion sxangxis (ankoraux ne sendita)...
+
+Sed principe indas pripensi, kiu varianto pli tauxgas, almenaux antaux 
+instali la finan produktivan version por JES.
+
+KAMPOELEKTO_IJK = true: (IJK-varianto)
+-----------------------
+partoprenanto:
+   - adreso
+   - tujmesagxilo
+
+partopreno:
+   - konfirmilolingvo (lingvokodo de aldona lingvo por konfirmilo)
+   - lingva_festivalo (propono por LF)
+   - helpo            (propono de alispeca helpo)
+
+
+KAMPOELEKTO_IJK = false: (IS-varianto)
+------------------------
+partoprenanto:
+   - adresaldonajxo
+   - strato
+   - provinco
+   - telefakso
+   - retposxta_varbado (x = ikse, u = unikode, n = tute ne)
+
+partopreno:
+   - germanakonfirmilo (j/n - aldone al la esperanta)
+   - GEJmembro         (j/n - laux indiko en aligxilo)
+   - surloka_membrokotizo (?/n/a/j/i/h/k - diversaj statusoj por
+                          trakti la GEJ/GEA-membrokotizo-pagadon
+                          por germanoj)
+   - membrokotizo      (sumo de la kotizo)
+   - kunmangxas        (cxu ricevu mangxkuponon kaj cxu devas
+                        krompagi por tio?)
+   - muzika            (kontribuo al muzika programo - t.e.
+                        novjara koncerto, cxefe)
+   - asekuri           (cxu ni devas asekuri?
+                         GEJ devas certigi, ke cxiu partoprenanto havas
+                         malsanasekuron. Plej facile tio estas per tio,
+                         ke ni faras iun grupan asekuron por cxiuj, kiuj
+                         ne mem havas. Cxiuj Euxropunianoj auxtomate
+                         havas. )
+   - havas_asekuron    (el la aligxilo: cxu jam havas?)
+
+(Eble mi ankoraux iujn forgesis.)
+
+
+Kompreneble eblas ankaux krei iun miksitan varianton (aux adapti unu el 
+ili). (Mi sxatus, ke tamen iel restu konfigureblaj diversaj eblaj sencaj
+kampo-kombinoj.)
+
+[La membrokotizo-traktado versxajne pli bone estu kiel apartaj
+  krompagoj/rabatoj, ne en la tabeloj, same kiel ni jam faris pri
+  TEJO-kotizoj/rabatoj en IJK.]
+
+
+Pauxlo
+
+
+From oczykota at gmail.com  Tue Mar  9 12:30:09 2010
+From: oczykota at gmail.com (Arkadiusz Zychewicz)
+Date: Tue, 09 Mar 2010 12:30:09 +0100
+Subject: [Aligilo-diskutoj] Planoj kaj sxangxoj
+Message-ID: <4B963141.7050803@gmail.com>
+
+Sal,
+  Mi volus diskuti pri plua disvolvo de aligilo, cxar mi pripensis ke mi
+povus agi en programado de gxi. Mi trarigardis retejon sed mi ne vidis
+listo de planoj ktp. Mi pli kaj pli bone komprenas strukturon de
+programo sed gxis nun ne tiel bone por ke fari iajn gravajn sxangxojn en
+programfono.
+Miaj proponoj estas por ke priskribi strukturon de programo, gxia
+funkiado kaj poste pridiskuti planoj de sxangxoj. ekz. kiel fari por ke
+dividi interfaco kaj kodo, plibonigi gxin (interfacon), fari programon
+pli gxeneralan.  Kion vi pensas pri tiu?
+kaj  cxu vi komence povus priskribi pli precize, kiu faras kion?
+
+Arek. :)
+
+
+
+
+
+
+From Paul.Ebermann at esperanto.de  Tue Mar  9 17:38:15 2010
+From: Paul.Ebermann at esperanto.de (Paul Ebermann)
+Date: Tue, 09 Mar 2010 17:38:15 +0100
+Subject: [Aligilo-diskutoj] Planoj kaj sxangxoj
+In-Reply-To: <4B963141.7050803@gmail.com>
+References: <4B963141.7050803@gmail.com>
+Message-ID: <4B967977.1020700@esperanto.de>
+
+Arkadiusz Zychewicz wrote:
+> Sal,
+>   Mi volus diskuti pri plua disvolvo de aligilo, cxar mi pripensis ke mi
+> povus agi en programado de gxi.
+
+Mi gxojas :-)
+
+> Mi trarigardis retejon sed mi ne vidis
+> listo de planoj ktp.
+
+Hmm, jes. Vera listo de planoj ne ekzistas.
+
+La gxenerala celo estas ke gxi igxu "gxenerale uzebla partoprenanto-administrilo por
+junularaj Eo-arangxoj".
+
+Krom tio, mi simple cxiam adaptadis la programon laux la bezonoj de la specifa
+renkontigxo, pri kiu temis, nome dum pluraj jaroj IS kaj lastjare IJK.
+
+Ne la plej tauxga maniero trakti tian projekton, versxajne.
+
+Plurajn ideojn mi aldonis en la cimo-memorilon (miksitaj inter simplaj eraroj de la
+programo):   https://developer.berlios.de/bugs/?group_id=8006
+
+Aliaj estas nur en mia kapo, aux jam forgesitaj.
+
+Do, estas versxajne bona ideo krei iun pli gxeneralan plano/celo-dokumenton.
+
+> Mi pli kaj pli bone komprenas strukturon de
+> programo sed gxis nun ne tiel bone por ke fari iajn gravajn sxangxojn en
+> programfono.
+> Miaj proponoj estas por ke priskribi strukturon de programo, gxia
+> funkiado kaj poste pridiskuti planoj de sxangxoj. ekz. kiel fari por ke
+> dividi interfaco kaj kodo, plibonigi gxin (interfacon), fari programon
+> pli gxeneralan.  Kion vi pensas pri tiu?
+
+Bone. Cxu vi pli celas la strukturon por uzantoj, aux la internan strukturon (kiuj
+funkcioj/klasoj/objektoj faras kion)?
+
+> kaj  cxu vi komence povus priskribi pli precize, kiu faras kion?
+
+Hmm, mi povas provi. (Mi nun iros hejmen, kaj poste rigardas, kiel pli bone priskribi ion.)
+
+
+Pauxlo
+
+
+From Paul.Ebermann at esperanto.de  Tue Mar  9 21:23:31 2010
+From: Paul.Ebermann at esperanto.de (Paul Ebermann)
+Date: Tue, 09 Mar 2010 21:23:31 +0100
+Subject: [Aligilo-diskutoj] Planoj kaj sxangxoj
+In-Reply-To: <4B963141.7050803@gmail.com>
+References: <4B963141.7050803@gmail.com>
+Message-ID: <4B96AE43.8090503@esperanto.de>
+
+Arkadiusz Zychewicz wrote:
+
+> Miaj proponoj estas por ke priskribi strukturon de programo, gxia
+> funkiado kaj poste pridiskuti planoj de sxangxoj. ekz. kiel fari por ke
+> dividi interfaco kaj kodo, plibonigi gxin (interfacon), fari programon
+> pli gxeneralan.  Kion vi pensas pri tiu?
+> kaj  cxu vi komence povus priskribi pli precize, kiu faras kion?
+
+Tre (vere tre) skeman bildon de la programstrukturo mi jxus kreis:
+http://heribert/aligilo/htdocs/doku/programstrukturo.png
+
+Indus ankoraux plidetaligi kaj aldoni pecojn (ekzemple pluraj funkcioj 
+en iloj.php versxajne estu tute sube, aliflanke la dosiero ja enigas 
+cxiujn aliajn ilojn, do eble tamen tute supre?).
+
+konvertiloj enhavas funkciojn por transformi cxefe cxenojn el unu kodigo 
+al alia, kaj estas uzata plurloke (inter alie de iloj_html), kaj en 
+pluraj pagxoj rekte.
+
+Pluraj el la aliaj iloj estu aux sub aux super la "DB-objektoj" (kiuj 
+fakte estas ne vere tauxga kunmeto de pluraj diversaj objekto-tipoj, 
+kiuj havas nur komune la funkciojn por savi sin al kaj preni sin el la 
+datumbazo).
+PDF-kreado ankaux iel estu strukturigita ... gxi estas nun
+
+Ankaux la "pagxoj"n oni povus diferencigi al pluraj grupoj:
+- diversaj pagxoj por redakti po unu tipon de objekto (aux kelkajn
+   parencajn, kaze de kategorioj)
+- sercx-pagxoj, statistikaj pagxoj, listoj
+- menuo, salutilo, ktp.
+- "grava administrado" (amasa PDF-kreado, aliaj amasaj funkcioj,
+                         ligoj al teknikajxoj)
+- kelkaj "specialaj skriptoj" (en tiel nomita dosierujo)
+
+Iom apartaj:
+- la traduksistemo
+- la instalilo
+- la aligxilo (en publikaj_skriptoj)
+
+Mi eble morgaux provas fari duan version de la skemo.
+
+Krom tio, versxajne plej tauxgas se vi ankoraux iom pli konkrete 
+demandas, kion vi volas scii. (Estas la unua fojo, ke iu volis scii tiom 
+detale kaj ne sidis apud mi, do mi petas pardonon ke mi ne tute scias 
+kion vi volas scii.)
+
+(Mi intencas enmeti cxiujn miajn klarigojn iel en la dokumentajxojn, por 
+ke la sekvaj havu pli bonan sxancon trovi gxin.)
+
+
+Pauxlo
+
+
+From Paul.Ebermann at esperanto.de  Wed Mar 10 10:51:33 2010
+From: Paul.Ebermann at esperanto.de (Paul Ebermann)
+Date: Wed, 10 Mar 2010 10:51:33 +0100
+Subject: [Aligilo-diskutoj] Planoj kaj sxangxoj
+In-Reply-To: <4B963141.7050803@gmail.com>
+References: <4B963141.7050803@gmail.com>
+Message-ID: <4B976BA5.8080005@esperanto.de>
+
+[La suban mesagxon mi sendis hieraux posttagmeze. Gxi aperas en la arkivo, sed ne alvenis
+ cxe mi (nek en mia spamfiltrilo), do mi supozas ke okazis iu problemo. Jen resendo.
+  -- Pauxlo]
+------------
+
+Arkadiusz Zychewicz wrote:
+> Sal,
+>   Mi volus diskuti pri plua disvolvo de aligilo, cxar mi pripensis ke mi
+> povus agi en programado de gxi.
+
+Mi gxojas :-)
+
+> Mi trarigardis retejon sed mi ne vidis
+> listo de planoj ktp.
+
+Hmm, jes. Vera listo de planoj ne ekzistas.
+
+La gxenerala celo estas ke gxi igxu "gxenerale uzebla partoprenanto-administrilo por
+junularaj Eo-arangxoj".
+
+Krom tio, mi simple cxiam adaptadis la programon laux la bezonoj de la specifa
+renkontigxo, pri kiu temis, nome dum pluraj jaroj IS kaj lastjare IJK.
+
+Ne la plej tauxga maniero trakti tian projekton, versxajne.
+
+Plurajn ideojn mi aldonis en la cimo-memorilon (miksitaj inter simplaj eraroj de la
+programo):   https://developer.berlios.de/bugs/?group_id=8006
+
+Aliaj estas nur en mia kapo, aux jam forgesitaj.
+
+Do, estas versxajne bona ideo krei iun pli gxeneralan plano/celo-dokumenton.
+
+> Mi pli kaj pli bone komprenas strukturon de
+> programo sed gxis nun ne tiel bone por ke fari iajn gravajn sxangxojn en
+> programfono.
+> Miaj proponoj estas por ke priskribi strukturon de programo, gxia
+> funkiado kaj poste pridiskuti planoj de sxangxoj. ekz. kiel fari por ke
+> dividi interfaco kaj kodo, plibonigi gxin (interfacon), fari programon
+> pli gxeneralan.  Kion vi pensas pri tiu?
+
+Bone. Cxu vi pli celas la strukturon por uzantoj, aux la internan strukturon (kiuj
+funkcioj/klasoj/objektoj faras kion)?
+
+> kaj  cxu vi komence povus priskribi pli precize, kiu faras kion?
+
+Hmm, mi povas provi. (Mi nun iros hejmen, kaj poste rigardas, kiel pli bone priskribi ion.)
+
+
+Pauxlo
+
+
+From oczykota at gmail.com  Wed Mar 10 11:02:26 2010
+From: oczykota at gmail.com (Arkadiusz Zychewicz)
+Date: Wed, 10 Mar 2010 11:02:26 +0100
+Subject: [Aligilo-diskutoj] Planoj kaj sxangxoj
+In-Reply-To: <4B96AE43.8090503@esperanto.de>
+References: <4B963141.7050803@gmail.com> <4B96AE43.8090503@esperanto.de>
+Message-ID: <4B976E32.9030201@gmail.com>
+
+Paul Ebermann pisze:
+> Tre (vere tre) skeman bildon de la programstrukturo mi jxus kreis:
+> http://heribert/aligilo/htdocs/doku/programstrukturo.png
+iel malgxusta estas supera ligilo.
+
+Poste mi respondos pli
+
+
+From Paul.Ebermann at esperanto.de  Wed Mar 10 11:45:21 2010
+From: Paul.Ebermann at esperanto.de (Paul Ebermann)
+Date: Wed, 10 Mar 2010 11:45:21 +0100
+Subject: [Aligilo-diskutoj] Planoj kaj sxangxoj
+In-Reply-To: <4B976E32.9030201@gmail.com>
+References: <4B963141.7050803@gmail.com> <4B96AE43.8090503@esperanto.de>
+	<4B976E32.9030201@gmail.com>
+Message-ID: <4B977841.8030709@esperanto.de>
+
+Arkadiusz Zychewicz wrote:
+> Paul Ebermann pisze:
+>> Tre (vere tre) skeman bildon de la programstrukturo mi jxus kreis:
+>> http://heribert/aligilo/htdocs/doku/programstrukturo.png
+> iel malgxusta estas supera ligilo.
+
+Jes, estas en mia loka komputilo ... mi kopiis el malgxusta retumilo-folio.
+La enreta estas tiu:  http://aligilo.berlios.de/doku/programstrukturo.png
+
+(Ankaux nun alligita en la cxefpagxo, suficxe sube.)
+
+Pauxlo
+
+
+From oczykota at gmail.com  Sat Mar 13 09:32:25 2010
+From: oczykota at gmail.com (Arkadiusz Zychewicz)
+Date: Sat, 13 Mar 2010 09:32:25 +0100
+Subject: [Aligilo-diskutoj] Planoj kaj sxangxoj
+In-Reply-To: <4B967977.1020700@esperanto.de>
+References: <4B963141.7050803@gmail.com> <4B967977.1020700@esperanto.de>
+Message-ID: <4B9B4D99.5060708@gmail.com>
+
+W dniu 09.03.2010 17:38, Paul Ebermann pisze:
+> Arkadiusz Zychewicz wrote:
+>   
+>> Sal,
+>>     
+> Hmm, jes. Vera listo de planoj ne ekzistas.
+>
+> La gxenerala celo estas ke gxi igxu "gxenerale uzebla partoprenanto-administrilo por
+> junularaj Eo-arangxoj".
+>   
+Mi ekpensis, ke eblus sxangxi iomete colon al "gxenerala programo por
+rekontigxoj"
+kiu ankaux enhavas cxiuj ecoj kiuj ankaux bezonas eo-arangxoj. Sed
+strikta difino de celo fakte ne estas tiel grava.
+> Ne la plej tauxga maniero trakti tian projekton, versxajne.
+>
+> Plurajn ideojn mi aldonis en la cimo-memorilon (miksitaj inter simplaj eraroj de la
+> programo):   https://developer.berlios.de/bugs/?group_id=8006
+>   
+Do, cxu estus granda laboro trovi ilin?
+
+> Do, estas versxajne bona ideo krei iun pli gxeneralan plano/celo-dokumenton.
+>   
+Jes, cxu Vi povus ekfari tiun dokumenton?
+>> Mi pli kaj pli bone komprenas strukturon de
+>> programo sed gxis nun ne tiel bone por ke fari iajn gravajn sxangxojn en
+>> programfono.
+>> Miaj proponoj estas por ke priskribi strukturon de programo, gxia
+>> funkiado kaj poste pridiskuti planoj de sxangxoj. ekz. kiel fari por ke
+>> dividi interfaco kaj kodo, plibonigi gxin (interfacon), fari programon
+>> pli gxeneralan.  Kion vi pensas pri tiu?
+>>     
+> Bone. Cxu vi pli celas la strukturon por uzantoj, aux la internan strukturon (kiuj
+> funkcioj/klasoj/objektoj faras kion)?
+>   
+Ambauxflanke, cxar se mi volus programi tiam mi devas scii kio faras
+kion, krom gxeneralaj ideoj
+ankaux pli detalaj informoj pri fontkodo, cxar se mi faros iujn
+sxangxojn mi ne volus detrui programon.
+>> kaj  cxu vi komence povus priskribi pli precize, kiu faras kion?
+>>     
+> Hmm, mi povas provi. (Mi nun iros hejmen, kaj poste rigardas, kiel pli bone priskribi ion.)
+>   
+
+Mi atendas malpacience :)
+
+Arek.
+
+-- 
+Esperanto regxas.
+
+
+
+From oczykota at gmail.com  Sat Mar 13 09:35:15 2010
+From: oczykota at gmail.com (Arkadiusz Zychewicz)
+Date: Sat, 13 Mar 2010 09:35:15 +0100
+Subject: [Aligilo-diskutoj] JES kaj uzado de Aligilo
+Message-ID: <4B9B4E43.7070105@gmail.com>
+
+Sal,
+   Grupo de organizantoj de JES decidis uzi aligilo por JES. Do kiel
+komence fari por adapti gxin?
+Cxu oni devus difini novan brancxon aux iu alia?
+
+Alia demando estas cxu Vi havas tempon por subteni uzado de programo dum
+JES?
+Arek.
+
+-- 
+Esperanto regxas.
+
+
+
+From Paul.Ebermann at esperanto.de  Sun Mar 14 14:05:51 2010
+From: Paul.Ebermann at esperanto.de (Paul Ebermann)
+Date: Sun, 14 Mar 2010 14:05:51 +0100
+Subject: [Aligilo-diskutoj] JES kaj uzado de Aligilo
+In-Reply-To: <4B9B4E43.7070105@gmail.com>
+References: <4B9B4E43.7070105@gmail.com>
+Message-ID: <4B9CDF2F.9020806@esperanto.de>
+
+Arkadiusz Zychewicz wrote:
+> Sal,
+>    Grupo de organizantoj de JES decidis uzi aligilo por JES. Do kiel
+> komence fari por adapti gxin?
+> Cxu oni devus difini novan brancxon aux iu alia?
+
+Hmm, estas principe du variantoj:
+
+(a) ni kreas brancxon de la aktuala kodo, kaj faras cxiujn adaptojn tie.
+     Tiuj el ili, kiuj estas gxenerale uzindaj, oni poste kopias al la
+     cxefa brancxo.
+
+(b) ni faras cxiujn sxangxojn en la cxefa brancxo (trunko),
+     garditaj per opcioj kiuj ebligas uzi aux ne uzi novajn aferojn.
+
+Aux iun miksajxon, kiel unue havi cxion en la cxefa brancxo kaj brancxi 
+nur tiam, kiam gxi atingis plejmulton de la celoj por JES (por havi 
+stabilan brancxon dum JES).
+
+Gxis nun mi cxefe uzis manieron (b) (havante nur la konfigurojn por IS 
+en aparta brancxo).
+
+> Alia demando estas cxu Vi havas tempon por subteni uzado de programo dum
+> JES?
+
+Mi timas, ke mi tion nuntempe tute ne povas prognozi. Mi planas gxis 
+tiam esti finstudinta kaj havi pagatan laboron, kaj esperas havi feriojn 
+por partopreni JESon, sed tio nun tute ne estas planebla.
+
+
+Pauxlo
+
+
+From Paul.Ebermann at esperanto.de  Sun Mar 14 14:19:17 2010
+From: Paul.Ebermann at esperanto.de (Paul Ebermann)
+Date: Sun, 14 Mar 2010 14:19:17 +0100
+Subject: [Aligilo-diskutoj] Planoj kaj sxangxoj
+In-Reply-To: <4B9B4D99.5060708@gmail.com>
+References: <4B963141.7050803@gmail.com> <4B967977.1020700@esperanto.de>
+	<4B9B4D99.5060708@gmail.com>
+Message-ID: <4B9CE255.7040306@esperanto.de>
+
+Arkadiusz Zychewicz skribis:
+> W dniu 09.03.2010 17:38, Paul Ebermann pisze:
+ >
+>> Hmm, jes. Vera listo de planoj ne ekzistas.
+>>
+>> La gxenerala celo estas ke gxi igxu "gxenerale uzebla partoprenanto-administrilo por
+>> junularaj Eo-arangxoj".
+>
+> Mi ekpensis, ke eblus sxangxi iomete colon al "gxenerala programo por
+> rekontigxoj"
+> kiu ankaux enhavas cxiuj ecoj kiuj ankaux bezonas eo-arangxoj. Sed
+> strikta difino de celo fakte ne estas tiel grava.
+
+Ne tiom, jes. Sed indas havi iun priskriban frazon por diri, kion la 
+programo scipovu, kaj kion ne. Ankaux por povi diri tion al uzantoj 
+respektive organizoj, kiuj pripensas uzi gxin.
+
+(Ekzemple, gxis nun la financa administrado (librotenado de cxiuj el- 
+kaj enspezoj ktp.) ne estis parto de gxi (krom la pagoj kaj rabatoj de 
+partoprenantoj), nek mendado de hoteloj kaj simile (kion ekzemple UEA 
+bezonus por UK).)
+
+Listo de funkcioj, kiun la programo nuntempe havas (aux havis antaux 
+kelkaj jaroj, kiam mi verkis la liston), fakte trovigxas cxi tie:
+
+    http://aligilo.berlios.de/funkcioj
+
+(Cxiuj dosieroj kun tiaj adresoj trovigxas en la SVN en dosierujo 
+"htdocs". Cxiuj sub http://aligilo.berlios.de/doku/ estas ankaux en 
+programo/doku.)
+
+>> Ne la plej tauxga maniero trakti tian projekton, versxajne.
+>>
+>> Plurajn ideojn mi aldonis en la cimo-memorilon (miksitaj inter simplaj eraroj de la
+>> programo):   https://developer.berlios.de/bugs/?group_id=8006
+>>   
+> Do, cxu estus granda laboro trovi ilin?
+> 
+>> Do, estas versxajne bona ideo krei iun pli gxeneralan plano/celo-dokumenton.
+>>   
+> Jes, cxu Vi povus ekfari tiun dokumenton?
+
+Jes, mi nun eklaboras por tio. (Gxi enhavos ankaux jam atingitajn celojn 
+...)
+
+>>> Mi pli kaj pli bone komprenas strukturon de
+>>> programo sed gxis nun ne tiel bone por ke fari iajn gravajn sxangxojn en
+>>> programfono.
+>>> Miaj proponoj estas por ke priskribi strukturon de programo, gxia
+>>> funkiado kaj poste pridiskuti planoj de sxangxoj. ekz. kiel fari por ke
+>>> dividi interfaco kaj kodo, plibonigi gxin (interfacon), fari programon
+>>> pli gxeneralan.  Kion vi pensas pri tiu?
+>>>     
+>> Bone. Cxu vi pli celas la strukturon por uzantoj, aux la internan strukturon (kiuj
+>> funkcioj/klasoj/objektoj faras kion)?
+>>   
+> Ambauxflanke, cxar se mi volus programi tiam mi devas scii kio faras
+> kion, krom gxeneralaj ideoj
+> ankaux pli detalaj informoj pri fontkodo, cxar se mi faros iujn
+> sxangxojn mi ne volus detrui programon.
+ >
+>>> kaj  cxu vi komence povus priskribi pli precize, kiu faras kion?
+>>>     
+>> Hmm, mi povas provi. (Mi nun iros hejmen, kaj poste rigardas, kiel pli
+>> bone priskribi ion.)
+
+Do, mi komencis krei iom pli largxan diagramon en 
+programo/doku/programstrukturo-detale.{dot,png}. La fina dokumento igxos 
+ankoraux suficxe pli granda ...
+
+Similaj skemoj pri la datumbazstrukturo (ne tute aktuala, versxajne) 
+estas alligitaj en la hejmpagxo.
+
+
+Pauxlo
+
+
+From Paul.Ebermann at esperanto.de  Sun Mar 14 18:11:38 2010
+From: Paul.Ebermann at esperanto.de (Paul Ebermann)
+Date: Sun, 14 Mar 2010 18:11:38 +0100
+Subject: [Aligilo-diskutoj] Planoj kaj sxangxoj
+In-Reply-To: <4B9CE255.7040306@esperanto.de>
+References: <4B963141.7050803@gmail.com>
+	<4B967977.1020700@esperanto.de>	<4B9B4D99.5060708@gmail.com>
+	<4B9CE255.7040306@esperanto.de>
+Message-ID: <4B9D18CA.8020704@esperanto.de>
+
+Paul Ebermann skribis:
+> Arkadiusz Zychewicz skribis:
+>> W dniu 09.03.2010 17:38, Paul Ebermann pisze:
+
+>>> Ne la plej tauxga maniero trakti tian projekton, versxajne.
+>>>
+>>> Plurajn ideojn mi aldonis en la cimo-memorilon (miksitaj inter 
+>>> simplaj eraroj de la
+>>> programo):   https://developer.berlios.de/bugs/?group_id=8006
+>>>   
+>> Do, cxu estus granda laboro trovi ilin?
+>>
+>>> Do, estas versxajne bona ideo krei iun pli gxeneralan 
+>>> plano/celo-dokumenton.
+>>>   
+>> Jes, cxu Vi povus ekfari tiun dokumenton?
+> 
+> Jes, mi nun eklaboras por tio. (Gxi enhavos ankaux jam atingitajn celojn 
+> ...)
+
+http://aligilo.berlios.de/doku/celoj
+
+La dokumento nuntempe cxefe enhavas priskribon, kio jam eblas, kun nur 
+malmultaj rugxaj partoj (kio eble farendas/farindas).
+
+Mi nun trarigardos la cimo-liston kaj aldonos la punktojn el gxi.
+
+
+Pauxlo
+
+
+From Paul.Ebermann at esperanto.de  Sun Mar 14 22:57:11 2010
+From: Paul.Ebermann at esperanto.de (Paul Ebermann)
+Date: Sun, 14 Mar 2010 22:57:11 +0100
+Subject: [Aligilo-diskutoj] Planoj kaj sxangxoj
+In-Reply-To: <4B9D18CA.8020704@esperanto.de>
+References: <4B963141.7050803@gmail.com>	<4B967977.1020700@esperanto.de>	<4B9B4D99.5060708@gmail.com>	<4B9CE255.7040306@esperanto.de>
+	<4B9D18CA.8020704@esperanto.de>
+Message-ID: <4B9D5BB7.6090502@esperanto.de>
+
+Paul Ebermann wrote:
+
+> http://aligilo.berlios.de/doku/celoj
+> 
+> La dokumento nuntempe cxefe enhavas priskribon, kio jam eblas, kun nur 
+> malmultaj rugxaj partoj (kio eble farendas/farindas).
+
+Mi nun aldonis la punktojn el la cimo-listo, kiujn mi opinias 
+plibonigo-proponoj.
+
+Do, la dokumento nun enhavas plimalpli superrigardon de la plej gravaj 
+funkcioj (el uzanta vidpunkto, plejparte), kiujn la programo nun havas, 
+iom disigitaj laux kampoj, kun mencioj, kiujn _mi_ opinias ankoraux 
+aldoninda/sxangxinda (aux almenaux pripensinda).
+
+Nun estas via vico aldoni kion vi opinias bezonata/utila. Speciale por 
+JES (cxar tio versxajne estos la sekva uzo, se ne IJK venas antauxe), 
+kaj gxenerale.
+
+
+Pauxlo
+
+
+From oczykota at gmail.com  Tue Mar 16 19:48:32 2010
+From: oczykota at gmail.com (Arkadiusz Zychewicz)
+Date: Tue, 16 Mar 2010 19:48:32 +0100
+Subject: [Aligilo-diskutoj] JES kaj uzado de Aligilo
+In-Reply-To: <4B9CDF2F.9020806@esperanto.de>
+References: <4B9B4E43.7070105@gmail.com> <4B9CDF2F.9020806@esperanto.de>
+Message-ID: <4B9FD280.1030208@gmail.com>
+
+W dniu 14.03.2010 14:05, Paul Ebermann pisze:
+> Arkadiusz Zychewicz wrote:
+>> Sal,
+>> Grupo de organizantoj de JES decidis uzi aligilo por JES. Do kiel
+>> komence fari por adapti gxin?
+>> Cxu oni devus difini novan brancxon aux iu alia?
+>
+> Hmm, estas principe du variantoj:
+>
+> (a) ni kreas brancxon de la aktuala kodo, kaj faras cxiujn adaptojn tie.
+> Tiuj el ili, kiuj estas gxenerale uzindaj, oni poste kopias al la
+> cxefa brancxo.
+la? mi varianto a estas bona ideo.
+>
+> Gxis nun mi cxefe uzis manieron (b) (havante nur la konfigurojn por IS
+> en aparta brancxo).
+Jes sed mi pensas ke samtempe ni ver?ajne faros iujn ?eneralajn ?an?ojn
+en Aligilo kaj tiuj ?an?oj povas detrui bone funkciadan sistemon.
+>
+>> Alia demando estas cxu Vi havas tempon por subteni uzado de programo dum
+>> JES?
+>
+> Mi timas, ke mi tion nuntempe tute ne povas prognozi. Mi planas gxis
+> tiam esti finstudinta kaj havi pagatan laboron, kaj esperas havi
+> feriojn por partopreni JESon, sed tio nun tute ne estas planebla.
+Se Vi ne povus esti kaj se mi havos sufi?an sperton a? programo bone
+funkcios tiam Via partopreno ne estos necesa, sed se ne kaj Vi ne estos
+ni faros tiun same kiel lasta (kaj unua) JES.
+
+Eble se Vi iojn pri Via ferion ekscios skribu, tiam ni pli bone decidos
+kion fari.
+
+Amike,
+Arek.
+
+-- 
+Esperanto regxas.
+
+
+

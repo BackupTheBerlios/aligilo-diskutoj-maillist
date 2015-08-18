@@ -1,0 +1,47 @@
+From Paul.Ebermann at esperanto.de  Fri Nov  4 21:52:58 2011
+From: Paul.Ebermann at esperanto.de (Paul Ebermann)
+Date: Fri, 04 Nov 2011 21:52:58 +0100
+Subject: [Aligilo-diskutoj] =?utf-8?q?aligilo_ne_plu_=C4=89e_BerliOS=3F?=
+Message-ID: <4EB450AA.3050400@esperanto.de>
+
+Saluton,
+
+Anta? monato BerliOS anoncis, ke la platformo estos fermita fine de la jaro:
+
+  http://developer.berlios.de/forum/forum.php?forum_id=37450
+
+Do mi ser?is vojon movi miajn projektojn (kio estas miaj LaTeX-projektoj
+(paullatex) kaj la Renkontigxo-administrilo (aligilo)) al alia sistemo.
+
+?ar mi estis kontenta uzanto de Git kaj GitHub, mi elektis tiun vojon, kaj
+hodia? kopiis la ?isnunan enhavon de la SVN-deponejo ?e BerliOS al nova
+Git-deponejo ?e GitHub:
+
+  http://github.com/epaul/aligilo/
+
+(kun retpa?o ?e http://epaul.github.com/aligilo/).
+
+Mi anka? trairis la cimo-memorilon ?e BerliOS kaj aldonis ?iujn savindajn
+cimojn a? plibonig-proponojn al la memorilo ?e GitHub:
+
+   https://github.com/ePaul/aligilo/issues?sort=created&direction=desc&state=open
+
+Fakte ?us nun (ser?ante la unuan ligon por tiu ?i mesa?o) mi legis ke fakte oni ne
+malfondos BerliOS, ?ar oni trovis solvon per fondo de komunutila asocio, kiu
+plu da?rigos ?in:
+
+  http://developer.berlios.de/forum/forum.php?forum_id=37533
+
+Mi ne certas, kion nun fari. Fakte ne multe da pluevoluo ?e BerliOS
+okazis en la lastaj jaroj (la lastaj ?an?oj estis en marto 2010),
+kaj mi ?atas la sistemon de Git.
+
+Aliflanke, GitHub ne facile ebligas havi dissendoliston - diskutoj eblas
+tamen ielmaniere, aldonite al "issues" kaj "pull requests".
+
+Opinioj?
+
+
+Pa?lo
+
+

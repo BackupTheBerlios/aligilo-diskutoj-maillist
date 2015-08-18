@@ -1,0 +1,117 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN">
+<HTML>
+ <HEAD>
+   <TITLE> [Aligilo-diskutoj] Undefined index: tabelnomtradukilo
+   </TITLE>
+   <LINK REL="Index" HREF="http://lists.berlios.de/pipermail/aligilo-diskutoj/2010-March/index.html" >
+   <LINK REL="made"  HREF="mailto:aligilo-diskutoj%40lists.berlios.de?Subject=Re%3A%20%5BAligilo-diskutoj%5D%20Undefined%20index%3A%20tabelnomtradukilo&In-Reply-To=%3C4B9532CE.5080206%40esperanto.de%3E">
+   <META NAME="robots" CONTENT="index,nofollow">
+   <META http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+   <LINK REL="Previous"  HREF="000004.html">
+   <LINK REL="Next"  HREF="000006.html">
+ </HEAD>
+ <BODY BGCOLOR="#ffffff">
+   <H1>[Aligilo-diskutoj] Undefined index: tabelnomtradukilo</H1>
+    <B>Paul Ebermann</B> 
+    <A
+    HREF="mailto:aligilo-diskutoj%40lists.berlios.de?Subject=Re%3A%20%5BAligilo-diskutoj%5D%20Undefined%20index%3A%20tabelnomtradukilo&In-Reply-To=%3C4B9532CE.5080206%40esperanto.de%3E"
+           TITLE="[Aligilo-diskutoj] Undefined index: tabelnomtradukilo">Paul.Ebermann at esperanto.de
+                  </A><BR>
+    <I>Mo Mär  8 18:24:30 CET 2010</I>
+    <P><UL>
+        <LI>Vorherige Nachricht: <A HREF="000004.html">[Aligilo-diskutoj] Undefined index: tabelnomtradukilo
+</A></li>
+        <LI>Nächste Nachricht: <A HREF="000006.html">[Aligilo-diskutoj] Undefined index: tabelnomtradukilo
+</A></li>
+         <LI> <B>Nachrichten sortiert nach:</B> 
+              <a href="date.html#5">[ Datum ]</a>
+              <a href="thread.html#5">[ Thema ]</a>
+              <a href="subject.html#5">[ Betreff (Subject) ]</a>
+              <a href="author.html#5">[ Autor ]</a>
+         </LI>
+       </UL>
+    <HR>
+<!--beginarticle-->
+<PRE>Arkadiusz Zychewicz wrote:
+&gt;<i> Sal,
+</I>&gt;<i>   Mi elsxutis novan verion al mia hejma komputilo. Kaj kiam mi eniras al
+</I>&gt;<i> cxefpagxo mi ricevas cxi tiun mesagxon:
+</I>&gt;<i> 
+</I>&gt;<i> (DIR=/home/arek/public_html/aligilo/programo)
+</I>&gt;<i> 
+</I>&gt;<i> Notice: Undefined index: tabelnomtradukilo in DIR/iloj/iloj_sql.php on
+</I>&gt;<i> line 121
+</I>&gt;<i> Notice: Undefined index: tabelnompostfikso in DIR/iloj/iloj_sql.php on
+</I>&gt;<i> line 130
+</I>&gt;<i> Notice: Undefined variable: _SESSION in DIR/iloj/konvertiloj.php on line 260
+</I>&gt;<i> Notice: Undefined index: enkodo in DIR/iloj/konvertiloj.php on line 261
+</I>&gt;<i> 
+</I>&gt;<i> cxu tiuj eraroj estas pro konfiguro de mia komputilo?
+</I>&gt;<i> PHP 5.3 kun Apache 2 en SuSe 11.2
+</I>
+Hmm, parte.
+Sxajne via PHP estas konfigurita por doni notojn pri nedifinitaj variabloj, kiujn mia ne
+donis. Malnovaj PHP-versioj simple uzis nedifinitajn variablojn kiel &quot;&quot; (kaj mi supozas,
+ke la novaj tion ankaux faras, sed aldone donas la notojn).
+
+Principe tiuj variabloj supozeble estu difinitaj (plejparte kiel &quot;&quot;, null aux false).
+
+Mi rigardos, kio estas farebla.
+
+(Laux unua rigardo:
+ La $tabelnomtradukilo/$tabelnompostfikso estu difinitaj en konfiguro/datumbazo.php, aux
+ alternative ilia uzo en traduku_tabelnomon() kontrolu, cxu ili fakte estas difinitaj.
+ $enkodo versxajne igxu $_REQUEST['enkodo']. Pri $_SESSION mi ne certas, eble necesas
+ unue starti la sesion por ke gxi funkciu.)
+
+Mi ankaux rigardos, cxu mi sukcesos mian PHP tiel konfiguri, ke mi vidu la mesagxojn (tiel
+pli facilos korekti la koncernajn partojn de la programo).
+
+&gt;<i> Kaj kiam mi volas fari instalado tiam estas ankaux cxe cxiu SQL-komendo:
+</I>&gt;<i> 
+</I>&gt;<i> Notice: Undefined index: tabelnomtradukilo in DIR/iloj/iloj_sql.php on
+</I>&gt;<i> line 121
+</I>&gt;<i> Notice: Undefined index: tabelnompostfikso in DIR/iloj/iloj_sql.php on
+</I>&gt;<i> line 130
+</I>
+Jes, sama kialo kiel supre.
+
+&gt;<i> Warning: fopen(../dosieroj_generitaj/db_tradukoj.txt): failed to open
+</I>&gt;<i> stream: Permission denied in DIR/instalilo/kreu_datumbazon.php on
+</I>&gt;<i> line 1177
+</I>
+Ah, tio estas grava punkto (mi devas aldoni al la instal-priskribo):
+La dosierujo &quot;dosieroj_generitaj&quot; devas havi permesojn, kiuj ebligas al la retservilo tie
+krei dosierojn (do supozeble o+w). (Ankaux legi, kompreneble.).
+
+Por la instalado, gxi cxefe utilas por krei help-dosieron, kiun poste la traduksistemo
+uzos. Sed aliaj partoj de la programo (precipe cxiuj PDF-kreiloj) ankaux metos siajn
+dosierojn tien. (Kaj mi kredas, ke nur tien kaj ne aliloken.)
+
+Sed krom tio sxajne cxiuj estas nur ne-gravaj notoj. Bonvolu reprovi post donado de rajtoj.
+
+(Jes, indus havi pli bonan erarmesagxon tie.)
+
+
+Pauxlo
+
+</PRE>
+
+<!--endarticle-->
+    <HR>
+    <P><UL>
+        <!--threads-->
+	<LI>Vorherige Nachricht: <A HREF="000004.html">[Aligilo-diskutoj] Undefined index: tabelnomtradukilo
+</A></li>
+	<LI>Nächste Nachricht: <A HREF="000006.html">[Aligilo-diskutoj] Undefined index: tabelnomtradukilo
+</A></li>
+         <LI> <B>Nachrichten sortiert nach:</B>
+              <a href="date.html#5">[ Datum ]</a>
+              <a href="thread.html#5">[ Thema ]</a>
+              <a href="subject.html#5">[ Betreff (Subject)]</a>
+              <a href="author.html#5">[ Autor ]</a>
+         </LI>
+       </UL>
+<hr>
+<a href="https://lists.berlios.de/mailman/listinfo/aligilo-diskutoj">Mehr Informationen &uuml;ber die Mailingliste Aligilo-diskutoj</a><br>
+</body></html>

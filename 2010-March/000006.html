@@ -1,0 +1,140 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN">
+<HTML>
+ <HEAD>
+   <TITLE> [Aligilo-diskutoj] Undefined index: tabelnomtradukilo
+   </TITLE>
+   <LINK REL="Index" HREF="http://lists.berlios.de/pipermail/aligilo-diskutoj/2010-March/index.html" >
+   <LINK REL="made"  HREF="mailto:aligilo-diskutoj%40lists.berlios.de?Subject=Re%3A%20%5BAligilo-diskutoj%5D%20Undefined%20index%3A%20tabelnomtradukilo&In-Reply-To=%3C4B9577E2.4040406%40esperanto.de%3E">
+   <META NAME="robots" CONTENT="index,nofollow">
+   <META http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+   <LINK REL="Previous"  HREF="000005.html">
+   <LINK REL="Next"  HREF="000007.html">
+ </HEAD>
+ <BODY BGCOLOR="#ffffff">
+   <H1>[Aligilo-diskutoj] Undefined index: tabelnomtradukilo</H1>
+    <B>Paul Ebermann</B> 
+    <A
+    HREF="mailto:aligilo-diskutoj%40lists.berlios.de?Subject=Re%3A%20%5BAligilo-diskutoj%5D%20Undefined%20index%3A%20tabelnomtradukilo&In-Reply-To=%3C4B9577E2.4040406%40esperanto.de%3E"
+           TITLE="[Aligilo-diskutoj] Undefined index: tabelnomtradukilo">Paul.Ebermann at esperanto.de
+                  </A><BR>
+    <I>Mo Mär  8 23:19:14 CET 2010</I>
+    <P><UL>
+        <LI>Vorherige Nachricht: <A HREF="000005.html">[Aligilo-diskutoj] Undefined index: tabelnomtradukilo
+</A></li>
+        <LI>Nächste Nachricht: <A HREF="000007.html">[Aligilo-diskutoj] Planoj kaj sxangxoj
+</A></li>
+         <LI> <B>Nachrichten sortiert nach:</B> 
+              <a href="date.html#6">[ Datum ]</a>
+              <a href="thread.html#6">[ Thema ]</a>
+              <a href="subject.html#6">[ Betreff (Subject) ]</a>
+              <a href="author.html#6">[ Autor ]</a>
+         </LI>
+       </UL>
+    <HR>
+<!--beginarticle-->
+<PRE>Paul Ebermann skribis:
+
+&gt;<i> Principe tiuj variabloj supozeble estu difinitaj (plejparte kiel &quot;&quot;, null aux false).
+</I>&gt;<i> 
+</I>&gt;<i> Mi rigardos, kio estas farebla.
+</I>&gt;<i> 
+</I>&gt;<i> (Laux unua rigardo:
+</I>&gt;<i>  La $tabelnomtradukilo/$tabelnompostfikso estu difinitaj en konfiguro/datumbazo.php, aux
+</I>&gt;<i>  alternative ilia uzo en traduku_tabelnomon() kontrolu, cxu ili fakte estas difinitaj.
+</I>&gt;<i>  $enkodo versxajne igxu $_REQUEST['enkodo']. Pri $_SESSION mi ne certas, eble necesas
+</I>&gt;<i>  unue starti la sesion por ke gxi funkciu.)
+</I>&gt;<i> 
+</I>&gt;<i> Mi ankaux rigardos, cxu mi sukcesos mian PHP tiel konfiguri, ke mi vidu la mesagxojn (tiel
+</I>&gt;<i> pli facilos korekti la koncernajn partojn de la programo).
+</I>
+Mi sxaltis plurajn avertojn en mia php.ini, kaj nun trovas multegajn 
+tiajn avertojn :-(
+
+Por nur simple elprovi versxajne estas plej simple malsxalti ilin, sed 
+mi nun laboras por purigi la tutan programon (nu, almenaux la plej 
+gravajn pagxojn) por forigi ilin. (Gxis nun sxangxitaj+aldonitaj 452 
+linioj.)
+
+Mi ankaux konstatis, ke la db-kreilo ne vere atentas pri la 
+konfigur-opcio KAMPOELEKTO_IJK, kaj do sxajne cxiam kreas la
+datumbazkampojn en la varianto por IJK anstataux IS. (Tiuj du estis la 
+du variantoj, kiujn gxi gxis nun konas.)
+Mi kredas ke mi nun tion sxangxis (ankoraux ne sendita)...
+
+Sed principe indas pripensi, kiu varianto pli tauxgas, almenaux antaux 
+instali la finan produktivan version por JES.
+
+KAMPOELEKTO_IJK = true: (IJK-varianto)
+-----------------------
+partoprenanto:
+   - adreso
+   - tujmesagxilo
+
+partopreno:
+   - konfirmilolingvo (lingvokodo de aldona lingvo por konfirmilo)
+   - lingva_festivalo (propono por LF)
+   - helpo            (propono de alispeca helpo)
+
+
+KAMPOELEKTO_IJK = false: (IS-varianto)
+------------------------
+partoprenanto:
+   - adresaldonajxo
+   - strato
+   - provinco
+   - telefakso
+   - retposxta_varbado (x = ikse, u = unikode, n = tute ne)
+
+partopreno:
+   - germanakonfirmilo (j/n - aldone al la esperanta)
+   - GEJmembro         (j/n - laux indiko en aligxilo)
+   - surloka_membrokotizo (?/n/a/j/i/h/k - diversaj statusoj por
+                          trakti la GEJ/GEA-membrokotizo-pagadon
+                          por germanoj)
+   - membrokotizo      (sumo de la kotizo)
+   - kunmangxas        (cxu ricevu mangxkuponon kaj cxu devas
+                        krompagi por tio?)
+   - muzika            (kontribuo al muzika programo - t.e.
+                        novjara koncerto, cxefe)
+   - asekuri           (cxu ni devas asekuri?
+                         GEJ devas certigi, ke cxiu partoprenanto havas
+                         malsanasekuron. Plej facile tio estas per tio,
+                         ke ni faras iun grupan asekuron por cxiuj, kiuj
+                         ne mem havas. Cxiuj Euxropunianoj auxtomate
+                         havas. )
+   - havas_asekuron    (el la aligxilo: cxu jam havas?)
+
+(Eble mi ankoraux iujn forgesis.)
+
+
+Kompreneble eblas ankaux krei iun miksitan varianton (aux adapti unu el 
+ili). (Mi sxatus, ke tamen iel restu konfigureblaj diversaj eblaj sencaj
+kampo-kombinoj.)
+
+[La membrokotizo-traktado versxajne pli bone estu kiel apartaj
+  krompagoj/rabatoj, ne en la tabeloj, same kiel ni jam faris pri
+  TEJO-kotizoj/rabatoj en IJK.]
+
+
+Pauxlo
+
+</PRE>
+
+<!--endarticle-->
+    <HR>
+    <P><UL>
+        <!--threads-->
+	<LI>Vorherige Nachricht: <A HREF="000005.html">[Aligilo-diskutoj] Undefined index: tabelnomtradukilo
+</A></li>
+	<LI>Nächste Nachricht: <A HREF="000007.html">[Aligilo-diskutoj] Planoj kaj sxangxoj
+</A></li>
+         <LI> <B>Nachrichten sortiert nach:</B>
+              <a href="date.html#6">[ Datum ]</a>
+              <a href="thread.html#6">[ Thema ]</a>
+              <a href="subject.html#6">[ Betreff (Subject)]</a>
+              <a href="author.html#6">[ Autor ]</a>
+         </LI>
+       </UL>
+<hr>
+<a href="https://lists.berlios.de/mailman/listinfo/aligilo-diskutoj">Mehr Informationen &uuml;ber die Mailingliste Aligilo-diskutoj</a><br>
+</body></html>
